@@ -1,0 +1,24 @@
+
+.monci { 
+    display:block;
+    background-size: 100% 100%;
+    margin-top: 0px;
+    width:180px;
+    height:80px;
+    border-radius:50%;
+    animation:coin 8s infinite;
+}
+@keyframes coin {
+    0%   {
+      width: 180px;
+      margin-left:90px;
+    }
+    50%  {
+      width: 0px;
+      margin-left:60px;
+    }
+    100% {
+      width: 180px;
+      margin-left:90px;
+    }
+}
